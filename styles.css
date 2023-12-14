@@ -1,0 +1,80 @@
+html { 
+  background: url(/images/Rainer.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+  height: 100%;
+}
+
+#level-title, #level {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+#rules {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+#rule-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 10%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+    opacity: 0.5;
+}
+
+.green {
+  background-color: green;
+  opacity: 0.5;
+}
+
+.blue {
+  background-color: blue;
+  opacity: 0.5;
+}
+
+.yellow {
+  background-color: yellow;
+  opacity: 0.5;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.visibility {
+  visibility: hidden;
+}
